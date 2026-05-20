@@ -1,0 +1,252 @@
+{
+    "properties": [
+        {
+            "expression": {
+                "objective": {
+                    "goal": {
+                        "exp": {
+                            "left": {
+                                "left": {
+                                    "left": "jig_0",
+                                    "op": "=",
+                                    "right": 10
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": "jig_1",
+                                    "op": "=",
+                                    "right": 10
+                                }
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "jig_2",
+                                    "op": "=",
+                                    "right": 10
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": {
+                                        "left": "jig_3",
+                                        "op": "=",
+                                        "right": 10
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": "jig_4",
+                                        "op": "=",
+                                        "right": 10
+                                    }
+                                }
+                            }
+                        },
+                        "op": "state-condition"
+                    },
+                    "op": "objective"
+                },
+                "op": "PA",
+                "reach": {
+                    "exp": {
+                        "left": "rack_load_2",
+                        "op": "≤",
+                        "right": 9
+                    },
+                    "op": "state-condition"
+                },
+                "start": {
+                    "exp": {
+                        "left": {
+                            "left": {
+                                "left": {
+                                    "left": {
+                                        "left": 10,
+                                        "op": "≤",
+                                        "right": "rack_load_2"
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": "beluga_0",
+                                        "op": "=",
+                                        "right": 2
+                                    }
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": {
+                                        "left": "num_swaps",
+                                        "op": "<",
+                                        "right": 30
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": {
+                                            "left": "rack_load_0",
+                                            "op": "=",
+                                            "right": 10
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": "rack_load_1",
+                                            "op": "=",
+                                            "right": 10
+                                        }
+                                    }
+                                }
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": {
+                                        "left": "rack_load_2",
+                                        "op": "=",
+                                        "right": 10
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": "front_rack_0",
+                                        "op": "=",
+                                        "right": -1
+                                    }
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": {
+                                        "left": "front_rack_1",
+                                        "op": "=",
+                                        "right": -1
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": {
+                                            "left": "front_rack_2",
+                                            "op": "=",
+                                            "right": -1
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": "back_rack_0",
+                                            "op": "=",
+                                            "right": -1
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "op": "∧",
+                        "right": {
+                            "left": {
+                                "left": {
+                                    "left": {
+                                        "left": "back_rack_1",
+                                        "op": "=",
+                                        "right": -1
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": "back_rack_2",
+                                        "op": "=",
+                                        "right": -1
+                                    }
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": {
+                                        "left": "line_0",
+                                        "op": "=",
+                                        "right": 3
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": {
+                                            "left": "line_1",
+                                            "op": "=",
+                                            "right": 4
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": "next_jig",
+                                            "op": "=",
+                                            "right": 4
+                                        }
+                                    }
+                                }
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": {
+                                        "left": "jig_0",
+                                        "op": "=",
+                                        "right": 10
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": {
+                                            "left": "jig_1",
+                                            "op": "=",
+                                            "right": 10
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": "jig_2",
+                                            "op": "=",
+                                            "right": 10
+                                        }
+                                    }
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": {
+                                        "left": {
+                                            "left": "jig_3",
+                                            "op": "≤",
+                                            "right": 1
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": 0,
+                                            "op": "≤",
+                                            "right": "jig_3"
+                                        }
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": {
+                                            "left": {
+                                                "left": "jig_4",
+                                                "op": "≤",
+                                                "right": 1
+                                            },
+                                            "op": "∧",
+                                            "right": {
+                                                "left": 0,
+                                                "op": "≤",
+                                                "right": "jig_4"
+                                            }
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": "jig_3",
+                                            "op": "≠",
+                                            "right": "jig_4"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "locations": [
+                        {
+                            "automaton": "automaton_0",
+                            "index": 0,
+                            "location": "loc_0"
+                        }
+                    ],
+                    "op": "state-condition"
+                }
+            },
+            "name": "pa_model-move_ignore_non_det_beluga_5_3_prop-compact_starts_no_predicates"
+        }
+    ]
+}

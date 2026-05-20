@@ -1,0 +1,8 @@
+{
+    "exp": {
+        "left": "last_capacity_diff",
+        "op": "≤",
+        "right": -1
+    },
+    "op": "state-condition"
+}

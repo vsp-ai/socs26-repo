@@ -1,0 +1,56 @@
+{
+  "elements": [
+    16,
+    16
+  ],
+  "file": "ecai24-transport_feature.nnet",
+  "filter": false,
+  "input": [
+    {
+      "automaton": null,
+      "name": "location_load_0"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_1"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_2"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_3"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_4"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_5"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_6"
+    },
+    {
+      "automaton": null,
+      "name": "truck_0"
+    },
+    {
+      "automaton": null,
+      "name": "truck_load_0"
+    },
+    {
+      "automaton": null,
+      "name": "num_packages_before_truck"
+    }
+  ],
+  "output": [
+    "pick_up_truck_0",
+    "drop_truck_0",
+    "drive_forward",
+    "drive_backward"
+  ]
+}

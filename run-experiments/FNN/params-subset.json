@@ -1,0 +1,69 @@
+{
+  "fnn_root":        "/home/$USER/Desktop/socs26-repo/fnn",
+  "plaja_root":      "/home/$USER/Desktop/plaja-fault_analysis_policy_iteration",
+  "benchmarks_file": "/home/$USER/Desktop/socs26-repo/run-experiments/benchmark-settings/subset.b.json",
+  "output_root":     "/home/$USER/Desktop/socs26-repo/run-experiments/FNN/output/small",
+  "model_root":      "/home/$USER/Desktop/socs26-repo/run-experiments/FNN/output/small/models",
+  "services": {
+    "data_generation": {
+      "tasks": [
+        "classification",
+        "regression"
+      ],
+      "data_params": {
+        "initial_state_enum": "sample",
+        "num_episodes": 5000,
+        "max_len_episode": 500,
+        "timeout_sec": 3600
+      }
+    },
+    "training": {
+      "default_seed": 42,
+      "fixed_params": {
+        "kfold": 0,
+        "device_id": "0",
+        "save_best": true,
+        "use_nlaf": true,
+        "alpha": 0.999,
+        "beta": 8,
+        "gamma": 1,
+        "epochs": 20,
+        "batch_size": 64,
+        "lr_decay_rate": 0.75,
+        "lr_decay_epoch": 10,
+        "weight_decay": 0.0,
+        "temperature": 1.0
+      },
+      "grid": {
+        "losses": [
+          "mse", "ce"
+        ],
+        "seeds": [
+          42
+        ],
+        "structures": [
+          "0@128", "0@256"
+        ],
+        "lrs": [
+          0.01
+        ],
+        "modes": [
+          "onehot",
+          "predicates"
+        ]
+      }
+    },
+    "evaluation": {
+      "eval_params": {
+        "initial_state_enum": "sample",
+        "num_episodes": 1000,
+        "timeout_sec": 3600
+      }
+    },
+    "verification": {
+      "verify_params": {
+        "timeout_sec": 3600
+      }
+    }
+  }
+}

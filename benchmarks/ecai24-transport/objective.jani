@@ -1,0 +1,100 @@
+{
+    "goal": {
+        "exp": {
+            "left": {
+                "left": {
+                    "left": {
+                        "left": "location_load_0",
+                        "op": "=",
+                        "right": 0
+                    },
+                    "op": "∧",
+                    "right": {
+                        "left": "location_load_1",
+                        "op": "=",
+                        "right": 0
+                    }
+                },
+                "op": "∧",
+                "right": {
+                    "left": {
+                        "left": "location_load_2",
+                        "op": "=",
+                        "right": 0
+                    },
+                    "op": "∧",
+                    "right": {
+                        "left": {
+                            "left": "location_load_3",
+                            "op": "=",
+                            "right": 0
+                        },
+                        "op": "∧",
+                        "right": {
+                            "left": "location_load_4",
+                            "op": "=",
+                            "right": 0
+                        }
+                    }
+                }
+            },
+            "op": "∧",
+            "right": {
+                "left": {
+                    "left": {
+                        "left": "location_load_5",
+                        "op": "=",
+                        "right": 0
+                    },
+                    "op": "∧",
+                    "right": {
+                        "left": {
+                            "left": "location_load_6",
+                            "op": "=",
+                            "right": 0
+                        },
+                        "op": "∧",
+                        "right": {
+                            "left": "location_load_7",
+                            "op": "=",
+                            "right": 0
+                        }
+                    }
+                },
+                "op": "∧",
+                "right": {
+                    "left": {
+                        "left": "location_load_8",
+                        "op": "=",
+                        "right": 0
+                    },
+                    "op": "∧",
+                    "right": {
+                        "left": {
+                            "left": "location_load_9",
+                            "op": "=",
+                            "right": 15
+                        },
+                        "op": "∧",
+                        "right": {
+                            "left": "truck_0",
+                            "op": "=",
+                            "right": 9
+                        }
+                    }
+                }
+            }
+        },
+        "op": "state-condition"
+    },
+    "goal-reward": {
+        "left": 10,
+        "op": "*",
+        "right": {
+            "left": 15,
+            "op": "min",
+            "right": "location_load_9"
+        }
+    },
+    "op": "objective"
+}

@@ -1,0 +1,45 @@
+{
+  "bench_root": "/home/$USER/Desktop/SOCS26-REPO/benchmarks",
+  "benchmarks": [
+    {
+      "dataset": "ecai24-blocksworld_ca_4_3_reg",
+      "bench_dir": "ecai24-blocksworld_ca_4_3",
+      "jani": "ecai24-blocksworld_ca_4_3.jani",
+      "iface": "ecai24-blocksworld_ca_4_3.jani2nnet",
+      "nnet": "ecai24-blocksworld_ca_4_3.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-blocksworld_ci_4_3_reg",
+      "bench_dir": "ecai24-blocksworld_ci_4_3",
+      "jani": "ecai24-blocksworld_ci_4_3.jani",
+      "iface": "ecai24-blocksworld_ci_4_3.jani2nnet",
+      "nnet": "ecai24-blocksworld_ci_4_3.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-transport_feature_reg",
+      "bench_dir": "ecai24-transport_feature",
+      "jani": "ecai24-transport_feature.jani",
+      "iface": "ecai24-transport_feature.jani2nnet",
+      "nnet": "ecai24-transport_feature.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset":   "owl_det_17_10_reg",
+      "bench_dir": "owl_det_17_10",
+      "jani":      "owl_det_17_10.jani",
+      "iface":     "owl_det_17_10.jani2nnet",
+      "nnet":      "owl_det_17_10.nnet",
+      "prop":      "compact-property.jani"
+    },
+    {
+      "dataset": "twl_nod_nop_17_10_reg",
+      "bench_dir": "twl_nod_nop_17_10",
+      "jani": "twl_nod_nop_17_10.jani",
+      "iface": "twl_nod_nop_17_10.jani2nnet",
+      "nnet": "twl_nod_nop_17_10.nnet",
+      "prop": "compact-property.jani"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "properties": [
+    {
+      "expression": {
+        "file": "ecai24-blocksworld_ca_4_3.jani2nnet",
+        "objective": {
+          "file": "objective.jani"
+        },
+        "op": "PA",
+        "reach": {
+          "file": "reach.jani"
+        },
+        "start": {
+          "file": "start.jani"
+        }
+      },
+      "name": "blocks_ca_4_3_compact-property"
+    }
+  ]
+}

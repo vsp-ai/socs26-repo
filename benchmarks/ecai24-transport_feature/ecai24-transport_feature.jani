@@ -1,0 +1,1468 @@
+{
+    "actions": [
+        {
+            "name": "pick_up_truck_0"
+        },
+        {
+            "name": "drop_truck_0"
+        },
+        {
+            "name": "drive_forward"
+        },
+        {
+            "name": "drive_backward"
+        }
+    ],
+    "automata": [
+        {
+            "edges": [
+                {
+                    "action": "pick_up_truck_0",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "location_load_0",
+                                    "value": {
+                                        "left": "location_load_0",
+                                        "op": "+",
+                                        "right": -1
+                                    }
+                                },
+                                {
+                                    "ref": "truck_load_0",
+                                    "value": {
+                                        "left": "truck_load_0",
+                                        "op": "+",
+                                        "right": 1
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 0
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "truck_load_0",
+                                    "op": "≤",
+                                    "right": 14
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": 1,
+                                    "op": "≤",
+                                    "right": "location_load_0"
+                                }
+                            }
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "pick_up_truck_0",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "location_load_1",
+                                    "value": {
+                                        "left": "location_load_1",
+                                        "op": "+",
+                                        "right": -1
+                                    }
+                                },
+                                {
+                                    "ref": "truck_load_0",
+                                    "value": {
+                                        "left": "truck_load_0",
+                                        "op": "+",
+                                        "right": 1
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 1
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "truck_load_0",
+                                    "op": "≤",
+                                    "right": 14
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": 1,
+                                    "op": "≤",
+                                    "right": "location_load_1"
+                                }
+                            }
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "pick_up_truck_0",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "location_load_2",
+                                    "value": {
+                                        "left": "location_load_2",
+                                        "op": "+",
+                                        "right": -1
+                                    }
+                                },
+                                {
+                                    "ref": "truck_load_0",
+                                    "value": {
+                                        "left": "truck_load_0",
+                                        "op": "+",
+                                        "right": 1
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 2
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "truck_load_0",
+                                    "op": "≤",
+                                    "right": 14
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": 1,
+                                    "op": "≤",
+                                    "right": "location_load_2"
+                                }
+                            }
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "pick_up_truck_0",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "location_load_3",
+                                    "value": {
+                                        "left": "location_load_3",
+                                        "op": "+",
+                                        "right": -1
+                                    }
+                                },
+                                {
+                                    "ref": "truck_load_0",
+                                    "value": {
+                                        "left": "truck_load_0",
+                                        "op": "+",
+                                        "right": 1
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 3
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "truck_load_0",
+                                    "op": "≤",
+                                    "right": 14
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": 1,
+                                    "op": "≤",
+                                    "right": "location_load_3"
+                                }
+                            }
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "pick_up_truck_0",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "location_load_4",
+                                    "value": {
+                                        "left": "location_load_4",
+                                        "op": "+",
+                                        "right": -1
+                                    }
+                                },
+                                {
+                                    "ref": "truck_load_0",
+                                    "value": {
+                                        "left": "truck_load_0",
+                                        "op": "+",
+                                        "right": 1
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 4
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "truck_load_0",
+                                    "op": "≤",
+                                    "right": 14
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": 1,
+                                    "op": "≤",
+                                    "right": "location_load_4"
+                                }
+                            }
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "pick_up_truck_0",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "location_load_5",
+                                    "value": {
+                                        "left": "location_load_5",
+                                        "op": "+",
+                                        "right": -1
+                                    }
+                                },
+                                {
+                                    "ref": "truck_load_0",
+                                    "value": {
+                                        "left": "truck_load_0",
+                                        "op": "+",
+                                        "right": 1
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 5
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "truck_load_0",
+                                    "op": "≤",
+                                    "right": 14
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": 1,
+                                    "op": "≤",
+                                    "right": "location_load_5"
+                                }
+                            }
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "pick_up_truck_0",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "location_load_6",
+                                    "value": {
+                                        "left": "location_load_6",
+                                        "op": "+",
+                                        "right": -1
+                                    }
+                                },
+                                {
+                                    "ref": "truck_load_0",
+                                    "value": {
+                                        "left": "truck_load_0",
+                                        "op": "+",
+                                        "right": 1
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 6
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "truck_load_0",
+                                    "op": "≤",
+                                    "right": 14
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": 1,
+                                    "op": "≤",
+                                    "right": "location_load_6"
+                                }
+                            }
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drop_truck_0",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "location_load_0",
+                                    "value": {
+                                        "left": "location_load_0",
+                                        "op": "+",
+                                        "right": 1
+                                    }
+                                },
+                                {
+                                    "ref": "truck_load_0",
+                                    "value": {
+                                        "left": "truck_load_0",
+                                        "op": "+",
+                                        "right": -1
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 0
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": 1,
+                                "op": "≤",
+                                "right": "truck_load_0"
+                            }
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drop_truck_0",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "location_load_1",
+                                    "value": {
+                                        "left": "location_load_1",
+                                        "op": "+",
+                                        "right": 1
+                                    }
+                                },
+                                {
+                                    "ref": "truck_load_0",
+                                    "value": {
+                                        "left": "truck_load_0",
+                                        "op": "+",
+                                        "right": -1
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 1
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": 1,
+                                "op": "≤",
+                                "right": "truck_load_0"
+                            }
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drop_truck_0",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "location_load_2",
+                                    "value": {
+                                        "left": "location_load_2",
+                                        "op": "+",
+                                        "right": 1
+                                    }
+                                },
+                                {
+                                    "ref": "truck_load_0",
+                                    "value": {
+                                        "left": "truck_load_0",
+                                        "op": "+",
+                                        "right": -1
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 2
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": 1,
+                                "op": "≤",
+                                "right": "truck_load_0"
+                            }
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drop_truck_0",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "location_load_3",
+                                    "value": {
+                                        "left": "location_load_3",
+                                        "op": "+",
+                                        "right": 1
+                                    }
+                                },
+                                {
+                                    "ref": "truck_load_0",
+                                    "value": {
+                                        "left": "truck_load_0",
+                                        "op": "+",
+                                        "right": -1
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 3
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": 1,
+                                "op": "≤",
+                                "right": "truck_load_0"
+                            }
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drop_truck_0",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "location_load_4",
+                                    "value": {
+                                        "left": "location_load_4",
+                                        "op": "+",
+                                        "right": 1
+                                    }
+                                },
+                                {
+                                    "ref": "truck_load_0",
+                                    "value": {
+                                        "left": "truck_load_0",
+                                        "op": "+",
+                                        "right": -1
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 4
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": 1,
+                                "op": "≤",
+                                "right": "truck_load_0"
+                            }
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drop_truck_0",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "location_load_5",
+                                    "value": {
+                                        "left": "location_load_5",
+                                        "op": "+",
+                                        "right": 1
+                                    }
+                                },
+                                {
+                                    "ref": "truck_load_0",
+                                    "value": {
+                                        "left": "truck_load_0",
+                                        "op": "+",
+                                        "right": -1
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 5
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": 1,
+                                "op": "≤",
+                                "right": "truck_load_0"
+                            }
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drop_truck_0",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "location_load_6",
+                                    "value": {
+                                        "left": "location_load_6",
+                                        "op": "+",
+                                        "right": 1
+                                    }
+                                },
+                                {
+                                    "ref": "truck_load_0",
+                                    "value": {
+                                        "left": "truck_load_0",
+                                        "op": "+",
+                                        "right": -1
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 6
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": 1,
+                                "op": "≤",
+                                "right": "truck_load_0"
+                            }
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drive_backward",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "truck_0",
+                                    "value": 0
+                                },
+                                {
+                                    "ref": "last_capacity_diff",
+                                    "value": {
+                                        "left": 0,
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "truck_load_0"
+                                        }
+                                    }
+                                },
+                                {
+                                    "ref": "num_packages_before_truck",
+                                    "value": {
+                                        "left": "num_packages_before_truck",
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "location_load_0"
+                                        }
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": "truck_0",
+                            "op": "=",
+                            "right": 1
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drive_forward",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "truck_0",
+                                    "value": 1
+                                },
+                                {
+                                    "ref": "last_capacity_diff",
+                                    "value": {
+                                        "left": 15,
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "truck_load_0"
+                                        }
+                                    }
+                                },
+                                {
+                                    "ref": "num_packages_before_truck",
+                                    "value": {
+                                        "left": "num_packages_before_truck",
+                                        "op": "+",
+                                        "right": {
+                                            "left": "location_load_0",
+                                            "op": "+",
+                                            "right": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": "truck_0",
+                            "op": "=",
+                            "right": 0
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drive_backward",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "truck_0",
+                                    "value": 1
+                                },
+                                {
+                                    "ref": "last_capacity_diff",
+                                    "value": {
+                                        "left": 0,
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "truck_load_0"
+                                        }
+                                    }
+                                },
+                                {
+                                    "ref": "num_packages_before_truck",
+                                    "value": {
+                                        "left": "num_packages_before_truck",
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "location_load_1"
+                                        }
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": "truck_0",
+                            "op": "=",
+                            "right": 2
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drive_forward",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "truck_0",
+                                    "value": 2
+                                },
+                                {
+                                    "ref": "last_capacity_diff",
+                                    "value": {
+                                        "left": 15,
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "truck_load_0"
+                                        }
+                                    }
+                                },
+                                {
+                                    "ref": "num_packages_before_truck",
+                                    "value": {
+                                        "left": "num_packages_before_truck",
+                                        "op": "+",
+                                        "right": {
+                                            "left": "location_load_1",
+                                            "op": "+",
+                                            "right": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": "truck_0",
+                            "op": "=",
+                            "right": 1
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drive_backward",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "truck_0",
+                                    "value": 2
+                                },
+                                {
+                                    "ref": "last_capacity_diff",
+                                    "value": {
+                                        "left": 0,
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "truck_load_0"
+                                        }
+                                    }
+                                },
+                                {
+                                    "ref": "num_packages_before_truck",
+                                    "value": {
+                                        "left": "num_packages_before_truck",
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "location_load_2"
+                                        }
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": "truck_0",
+                            "op": "=",
+                            "right": 3
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drive_forward",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "truck_0",
+                                    "value": 3
+                                },
+                                {
+                                    "ref": "last_capacity_diff",
+                                    "value": {
+                                        "left": 15,
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "truck_load_0"
+                                        }
+                                    }
+                                },
+                                {
+                                    "ref": "num_packages_before_truck",
+                                    "value": {
+                                        "left": "num_packages_before_truck",
+                                        "op": "+",
+                                        "right": {
+                                            "left": "location_load_2",
+                                            "op": "+",
+                                            "right": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": "truck_0",
+                            "op": "=",
+                            "right": 2
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drive_backward",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "truck_0",
+                                    "value": 3
+                                },
+                                {
+                                    "ref": "last_capacity_diff",
+                                    "value": {
+                                        "left": 0,
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "truck_load_0"
+                                        }
+                                    }
+                                },
+                                {
+                                    "ref": "num_packages_before_truck",
+                                    "value": {
+                                        "left": "num_packages_before_truck",
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "location_load_3"
+                                        }
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": "truck_0",
+                            "op": "=",
+                            "right": 4
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drive_forward",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "truck_0",
+                                    "value": 4
+                                },
+                                {
+                                    "ref": "last_capacity_diff",
+                                    "value": {
+                                        "left": 15,
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "truck_load_0"
+                                        }
+                                    }
+                                },
+                                {
+                                    "ref": "num_packages_before_truck",
+                                    "value": {
+                                        "left": "num_packages_before_truck",
+                                        "op": "+",
+                                        "right": {
+                                            "left": "location_load_3",
+                                            "op": "+",
+                                            "right": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": "truck_0",
+                            "op": "=",
+                            "right": 3
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drive_backward",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "truck_0",
+                                    "value": 4
+                                },
+                                {
+                                    "ref": "last_capacity_diff",
+                                    "value": {
+                                        "left": 0,
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "truck_load_0"
+                                        }
+                                    }
+                                },
+                                {
+                                    "ref": "num_packages_before_truck",
+                                    "value": {
+                                        "left": "num_packages_before_truck",
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "location_load_4"
+                                        }
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": "truck_0",
+                            "op": "=",
+                            "right": 5
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drive_forward",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "truck_0",
+                                    "value": 5
+                                },
+                                {
+                                    "ref": "last_capacity_diff",
+                                    "value": {
+                                        "left": 15,
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "truck_load_0"
+                                        }
+                                    }
+                                },
+                                {
+                                    "ref": "num_packages_before_truck",
+                                    "value": {
+                                        "left": "num_packages_before_truck",
+                                        "op": "+",
+                                        "right": {
+                                            "left": "location_load_4",
+                                            "op": "+",
+                                            "right": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": "truck_0",
+                            "op": "=",
+                            "right": 4
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drive_backward",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "truck_0",
+                                    "value": 5
+                                },
+                                {
+                                    "ref": "last_capacity_diff",
+                                    "value": {
+                                        "left": 0,
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "truck_load_0"
+                                        }
+                                    }
+                                },
+                                {
+                                    "ref": "num_packages_before_truck",
+                                    "value": {
+                                        "left": "num_packages_before_truck",
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "location_load_5"
+                                        }
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": "truck_0",
+                            "op": "=",
+                            "right": 6
+                        }
+                    },
+                    "location": "loc_0"
+                },
+                {
+                    "action": "drive_forward",
+                    "destinations": [
+                        {
+                            "assignments": [
+                                {
+                                    "ref": "truck_0",
+                                    "value": 6
+                                },
+                                {
+                                    "ref": "last_capacity_diff",
+                                    "value": {
+                                        "left": 15,
+                                        "op": "+",
+                                        "right": {
+                                            "left": -1,
+                                            "op": "*",
+                                            "right": "truck_load_0"
+                                        }
+                                    }
+                                },
+                                {
+                                    "ref": "num_packages_before_truck",
+                                    "value": {
+                                        "left": "num_packages_before_truck",
+                                        "op": "+",
+                                        "right": {
+                                            "left": "location_load_5",
+                                            "op": "+",
+                                            "right": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "location": "loc_0"
+                        }
+                    ],
+                    "guard": {
+                        "exp": {
+                            "left": "truck_0",
+                            "op": "=",
+                            "right": 5
+                        }
+                    },
+                    "location": "loc_0"
+                }
+            ],
+            "initial-locations": [
+                "loc_0"
+            ],
+            "locations": [
+                {
+                    "name": "loc_0"
+                }
+            ],
+            "name": "automaton_0"
+        }
+    ],
+    "constants": [
+        {
+            "name": "terminal_at_unsafe",
+            "type": "bool",
+            "value": false
+        },
+        {
+            "name": "dropping_prob",
+            "type": "real",
+            "value": 0.0
+        },
+        {
+            "name": "tank_capacity",
+            "type": "int",
+            "value": 0
+        }
+    ],
+    "jani-version": 1,
+    "name": "description_files/sum_linetrack_15_6.json",
+    "properties": [
+        {
+            "expression": {
+                "fun": "∃",
+                "op": "filter",
+                "states": {
+                    "op": "initial"
+                },
+                "values": {
+                    "exp": {
+                        "left": {
+                            "left": {
+                                "left": {
+                                    "left": "location_load_0",
+                                    "op": "=",
+                                    "right": 0
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": "location_load_1",
+                                    "op": "=",
+                                    "right": 0
+                                }
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "location_load_2",
+                                    "op": "=",
+                                    "right": 0
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": "location_load_3",
+                                    "op": "=",
+                                    "right": 0
+                                }
+                            }
+                        },
+                        "op": "∧",
+                        "right": {
+                            "left": {
+                                "left": {
+                                    "left": "location_load_4",
+                                    "op": "=",
+                                    "right": 0
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": "location_load_5",
+                                    "op": "=",
+                                    "right": 0
+                                }
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "location_load_6",
+                                    "op": "=",
+                                    "right": 15
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": "truck_0",
+                                    "op": "=",
+                                    "right": 6
+                                }
+                            }
+                        }
+                    },
+                    "op": "F"
+                }
+            },
+            "name": "description_files/sum_linetrack_15_6.json-goal"
+        }
+    ],
+    "system": {
+        "elements": [
+            {
+                "automaton": "automaton_0"
+            }
+        ],
+        "syncs": [
+            {
+                "result": "pick_up_truck_0",
+                "synchronise": [
+                    "pick_up_truck_0"
+                ]
+            },
+            {
+                "result": "drop_truck_0",
+                "synchronise": [
+                    "drop_truck_0"
+                ]
+            },
+            {
+                "result": "drive_forward",
+                "synchronise": [
+                    "drive_forward"
+                ]
+            },
+            {
+                "result": "drive_backward",
+                "synchronise": [
+                    "drive_backward"
+                ]
+            }
+        ]
+    },
+    "type": "lts",
+    "variables": [
+        {
+            "initial-value": 15,
+            "name": "location_load_0",
+            "type": {
+                "base": "int",
+                "kind": "bounded",
+                "lower-bound": 0,
+                "upper-bound": 15
+            }
+        },
+        {
+            "initial-value": 0,
+            "name": "location_load_1",
+            "type": {
+                "base": "int",
+                "kind": "bounded",
+                "lower-bound": 0,
+                "upper-bound": 15
+            }
+        },
+        {
+            "initial-value": 0,
+            "name": "location_load_2",
+            "type": {
+                "base": "int",
+                "kind": "bounded",
+                "lower-bound": 0,
+                "upper-bound": 15
+            }
+        },
+        {
+            "initial-value": 0,
+            "name": "location_load_3",
+            "type": {
+                "base": "int",
+                "kind": "bounded",
+                "lower-bound": 0,
+                "upper-bound": 15
+            }
+        },
+        {
+            "initial-value": 0,
+            "name": "location_load_4",
+            "type": {
+                "base": "int",
+                "kind": "bounded",
+                "lower-bound": 0,
+                "upper-bound": 15
+            }
+        },
+        {
+            "initial-value": 0,
+            "name": "location_load_5",
+            "type": {
+                "base": "int",
+                "kind": "bounded",
+                "lower-bound": 0,
+                "upper-bound": 15
+            }
+        },
+        {
+            "initial-value": 0,
+            "name": "location_load_6",
+            "type": {
+                "base": "int",
+                "kind": "bounded",
+                "lower-bound": 0,
+                "upper-bound": 15
+            }
+        },
+        {
+            "initial-value": 0,
+            "name": "truck_0",
+            "type": {
+                "base": "int",
+                "kind": "bounded",
+                "lower-bound": 0,
+                "upper-bound": 6
+            }
+        },
+        {
+            "initial-value": 0,
+            "name": "truck_load_0",
+            "type": {
+                "base": "int",
+                "kind": "bounded",
+                "lower-bound": 0,
+                "upper-bound": 15
+            }
+        },
+        {
+            "initial-value": 0,
+            "name": "num_packages_before_truck",
+            "type": {
+                "base": "int",
+                "kind": "bounded",
+                "lower-bound": 0,
+                "upper-bound": 15
+            }
+        },
+        {
+            "initial-value": 0,
+            "name": "last_capacity_diff",
+            "type": {
+                "base": "int",
+                "kind": "bounded",
+                "lower-bound": -15,
+                "upper-bound": 15
+            }
+        }
+    ]
+}

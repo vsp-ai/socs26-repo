@@ -1,0 +1,400 @@
+{
+    "properties": [
+        {
+            "expression": {
+                "objective": {
+                    "goal": {
+                        "exp": {
+                            "left": {
+                                "left": {
+                                    "left": {
+                                        "left": {
+                                            "left": {
+                                                "left": "location_load_0",
+                                                "op": "=",
+                                                "right": 0
+                                            },
+                                            "op": "∧",
+                                            "right": {
+                                                "left": {
+                                                    "left": "location_load_1",
+                                                    "op": "=",
+                                                    "right": 0
+                                                },
+                                                "op": "∧",
+                                                "right": {
+                                                    "left": "location_load_2",
+                                                    "op": "=",
+                                                    "right": 0
+                                                }
+                                            }
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": {
+                                                "left": "location_load_3",
+                                                "op": "=",
+                                                "right": 0
+                                            },
+                                            "op": "∧",
+                                            "right": {
+                                                "left": {
+                                                    "left": "location_load_4",
+                                                    "op": "=",
+                                                    "right": 0
+                                                },
+                                                "op": "∧",
+                                                "right": {
+                                                    "left": "location_load_5",
+                                                    "op": "=",
+                                                    "right": 0
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": {
+                                            "left": {
+                                                "left": "location_load_6",
+                                                "op": "=",
+                                                "right": 0
+                                            },
+                                            "op": "∧",
+                                            "right": {
+                                                "left": {
+                                                    "left": "location_load_7",
+                                                    "op": "=",
+                                                    "right": 0
+                                                },
+                                                "op": "∧",
+                                                "right": {
+                                                    "left": "location_load_8",
+                                                    "op": "=",
+                                                    "right": 0
+                                                }
+                                            }
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": {
+                                                "left": {
+                                                    "left": "location_load_9",
+                                                    "op": "=",
+                                                    "right": 0
+                                                },
+                                                "op": "∧",
+                                                "right": {
+                                                    "left": "location_load_10",
+                                                    "op": "=",
+                                                    "right": 0
+                                                }
+                                            },
+                                            "op": "∧",
+                                            "right": {
+                                                "left": {
+                                                    "left": "location_load_11",
+                                                    "op": "=",
+                                                    "right": 0
+                                                },
+                                                "op": "∧",
+                                                "right": {
+                                                    "left": "location_load_12",
+                                                    "op": "=",
+                                                    "right": 0
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": {
+                                        "left": {
+                                            "left": {
+                                                "left": "location_load_13",
+                                                "op": "=",
+                                                "right": 0
+                                            },
+                                            "op": "∧",
+                                            "right": {
+                                                "left": {
+                                                    "left": "location_load_14",
+                                                    "op": "=",
+                                                    "right": 0
+                                                },
+                                                "op": "∧",
+                                                "right": {
+                                                    "left": "location_load_15",
+                                                    "op": "=",
+                                                    "right": 0
+                                                }
+                                            }
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": {
+                                                "left": "location_load_16",
+                                                "op": "=",
+                                                "right": 0
+                                            },
+                                            "op": "∧",
+                                            "right": {
+                                                "left": {
+                                                    "left": "location_load_17",
+                                                    "op": "=",
+                                                    "right": 0
+                                                },
+                                                "op": "∧",
+                                                "right": {
+                                                    "left": "location_load_18",
+                                                    "op": "=",
+                                                    "right": 0
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": {
+                                            "left": {
+                                                "left": "location_load_19",
+                                                "op": "=",
+                                                "right": 0
+                                            },
+                                            "op": "∧",
+                                            "right": {
+                                                "left": {
+                                                    "left": "location_load_20",
+                                                    "op": "=",
+                                                    "right": 0
+                                                },
+                                                "op": "∧",
+                                                "right": {
+                                                    "left": "location_load_21",
+                                                    "op": "=",
+                                                    "right": 0
+                                                }
+                                            }
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": {
+                                                "left": {
+                                                    "left": "location_load_22",
+                                                    "op": "=",
+                                                    "right": 0
+                                                },
+                                                "op": "∧",
+                                                "right": {
+                                                    "left": "location_load_23",
+                                                    "op": "=",
+                                                    "right": 0
+                                                }
+                                            },
+                                            "op": "∧",
+                                            "right": {
+                                                "left": {
+                                                    "left": "location_load_24",
+                                                    "op": "=",
+                                                    "right": 40
+                                                },
+                                                "op": "∧",
+                                                "right": {
+                                                    "left": "truck_0",
+                                                    "op": "=",
+                                                    "right": 24
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": 0,
+                                "op": "≤",
+                                "right": "aux_vel"
+                            }
+                        },
+                        "op": "state-condition"
+                    },
+                    "op": "objective"
+                },
+                "op": "PA",
+                "reach": {
+                    "exp": {
+                        "left": "aux_vel",
+                        "op": "≤",
+                        "right": -1
+                    },
+                    "op": "state-condition"
+                },
+                "start": {
+                    "exp": {
+                        "left": {
+                            "left": {
+                                "left": 0,
+                                "op": "≤",
+                                "right": "aux_vel"
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "truck_vel_0",
+                                    "op": "=",
+                                    "right": 0
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": "truck_0",
+                                    "op": "=",
+                                    "right": 0
+                                }
+                            }
+                        },
+                        "op": "∧",
+                        "right": {
+                            "left": {
+                                "left": {
+                                    "left": 40,
+                                    "op": "=",
+                                    "right": {
+                                        "left": "location_load_0",
+                                        "op": "+",
+                                        "right": {
+                                            "left": "location_load_1",
+                                            "op": "+",
+                                            "right": {
+                                                "left": "location_load_2",
+                                                "op": "+",
+                                                "right": {
+                                                    "left": "location_load_3",
+                                                    "op": "+",
+                                                    "right": {
+                                                        "left": "location_load_4",
+                                                        "op": "+",
+                                                        "right": {
+                                                            "left": "location_load_5",
+                                                            "op": "+",
+                                                            "right": {
+                                                                "left": "location_load_6",
+                                                                "op": "+",
+                                                                "right": {
+                                                                    "left": "location_load_7",
+                                                                    "op": "+",
+                                                                    "right": {
+                                                                        "left": "location_load_8",
+                                                                        "op": "+",
+                                                                        "right": {
+                                                                            "left": "location_load_9",
+                                                                            "op": "+",
+                                                                            "right": {
+                                                                                "left": "location_load_10",
+                                                                                "op": "+",
+                                                                                "right": {
+                                                                                    "left": "location_load_11",
+                                                                                    "op": "+",
+                                                                                    "right": {
+                                                                                        "left": "location_load_12",
+                                                                                        "op": "+",
+                                                                                        "right": {
+                                                                                            "left": "location_load_13",
+                                                                                            "op": "+",
+                                                                                            "right": {
+                                                                                                "left": "location_load_14",
+                                                                                                "op": "+",
+                                                                                                "right": {
+                                                                                                    "left": "location_load_15",
+                                                                                                    "op": "+",
+                                                                                                    "right": {
+                                                                                                        "left": "location_load_16",
+                                                                                                        "op": "+",
+                                                                                                        "right": {
+                                                                                                            "left": "location_load_17",
+                                                                                                            "op": "+",
+                                                                                                            "right": {
+                                                                                                                "left": "location_load_18",
+                                                                                                                "op": "+",
+                                                                                                                "right": {
+                                                                                                                    "left": "location_load_19",
+                                                                                                                    "op": "+",
+                                                                                                                    "right": {
+                                                                                                                        "left": "location_load_20",
+                                                                                                                        "op": "+",
+                                                                                                                        "right": {
+                                                                                                                            "left": "location_load_21",
+                                                                                                                            "op": "+",
+                                                                                                                            "right": {
+                                                                                                                                "left": "location_load_22",
+                                                                                                                                "op": "+",
+                                                                                                                                "right": {
+                                                                                                                                    "left": "location_load_23",
+                                                                                                                                    "op": "+",
+                                                                                                                                    "right": {
+                                                                                                                                        "left": "location_load_24",
+                                                                                                                                        "op": "+",
+                                                                                                                                        "right": "truck_load_0"
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": "truck_0",
+                                    "op": "=",
+                                    "right": 0
+                                }
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "truck_0",
+                                    "op": "≤",
+                                    "right": 23
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": "location_load_24",
+                                    "op": "=",
+                                    "right": 0
+                                }
+                            }
+                        }
+                    },
+                    "locations": [
+                        {
+                            "automaton": "automaton_0",
+                            "index": 0,
+                            "location": "loc_0"
+                        }
+                    ],
+                    "op": "state-condition"
+                }
+            },
+            "name": "pa_model-race_linetrack_40_25_prop-compact_starts_no_predicates"
+        }
+    ]
+}

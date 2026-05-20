@@ -1,0 +1,405 @@
+{
+  "bench_root": "/home/$USER/Desktop/SOCS26-REPO/benchmarks",
+  "benchmarks": [
+    {
+      "dataset": "ecai24-beluga_4_3_cls",
+      "bench_dir": "ecai24-beluga_4_3",
+      "jani": "ecai24-beluga_4_3.jani",
+      "iface": "ecai24-beluga_4_3.jani2nnet",
+      "nnet": "ecai24-beluga_4_3.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-beluga_4_3_reg",
+      "bench_dir": "ecai24-beluga_4_3",
+      "jani": "ecai24-beluga_4_3.jani",
+      "iface": "ecai24-beluga_4_3.jani2nnet",
+      "nnet": "ecai24-beluga_4_3.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-beluga_5_3_cls",
+      "bench_dir": "ecai24-beluga_5_3",
+      "jani": "ecai24-beluga_5_3.jani",
+      "iface": "ecai24-beluga_5_3.jani2nnet",
+      "nnet": "ecai24-beluga_5_3.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-beluga_5_3_reg",
+      "bench_dir": "ecai24-beluga_5_3",
+      "jani": "ecai24-beluga_5_3.jani",
+      "iface": "ecai24-beluga_5_3.jani2nnet",
+      "nnet": "ecai24-beluga_5_3.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-blocksworld_ca_4_3_cls",
+      "bench_dir": "ecai24-blocksworld_ca_4_3",
+      "jani": "ecai24-blocksworld_ca_4_3.jani",
+      "iface": "ecai24-blocksworld_ca_4_3.jani2nnet",
+      "nnet": "ecai24-blocksworld_ca_4_3.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-blocksworld_ca_4_3_reg",
+      "bench_dir": "ecai24-blocksworld_ca_4_3",
+      "jani": "ecai24-blocksworld_ca_4_3.jani",
+      "iface": "ecai24-blocksworld_ca_4_3.jani2nnet",
+      "nnet": "ecai24-blocksworld_ca_4_3.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-blocksworld_ca_6_5_cls",
+      "bench_dir": "ecai24-blocksworld_ca_6_5",
+      "jani": "ecai24-blocksworld_ca_6_5.jani",
+      "iface": "ecai24-blocksworld_ca_6_5.jani2nnet",
+      "nnet": "ecai24-blocksworld_ca_6_5.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-blocksworld_ca_6_5_reg",
+      "bench_dir": "ecai24-blocksworld_ca_6_5",
+      "jani": "ecai24-blocksworld_ca_6_5.jani",
+      "iface": "ecai24-blocksworld_ca_6_5.jani2nnet",
+      "nnet": "ecai24-blocksworld_ca_6_5.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-blocksworld_ci_4_3_cls",
+      "bench_dir": "ecai24-blocksworld_ci_4_3",
+      "jani": "ecai24-blocksworld_ci_4_3.jani",
+      "iface": "ecai24-blocksworld_ci_4_3.jani2nnet",
+      "nnet": "ecai24-blocksworld_ci_4_3.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-blocksworld_ci_4_3_reg",
+      "bench_dir": "ecai24-blocksworld_ci_4_3",
+      "jani": "ecai24-blocksworld_ci_4_3.jani",
+      "iface": "ecai24-blocksworld_ci_4_3.jani2nnet",
+      "nnet": "ecai24-blocksworld_ci_4_3.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-blocksworld_ci_6_5_cls",
+      "bench_dir": "ecai24-blocksworld_ci_6_5",
+      "jani": "ecai24-blocksworld_ci_6_5.jani",
+      "iface": "ecai24-blocksworld_ci_6_5.jani2nnet",
+      "nnet": "ecai24-blocksworld_ci_6_5.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-blocksworld_ci_6_5_reg",
+      "bench_dir": "ecai24-blocksworld_ci_6_5",
+      "jani": "ecai24-blocksworld_ci_6_5.jani",
+      "iface": "ecai24-blocksworld_ci_6_5.jani2nnet",
+      "nnet": "ecai24-blocksworld_ci_6_5.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-transport_cls",
+      "bench_dir": "ecai24-transport",
+      "jani": "ecai24-transport.jani",
+      "iface": "ecai24-transport.jani2nnet",
+      "nnet": "ecai24-transport.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-transport_feature_cls",
+      "bench_dir": "ecai24-transport_feature",
+      "jani": "ecai24-transport_feature.jani",
+      "iface": "ecai24-transport_feature.jani2nnet",
+      "nnet": "ecai24-transport_feature.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-transport_feature_reg",
+      "bench_dir": "ecai24-transport_feature",
+      "jani": "ecai24-transport_feature.jani",
+      "iface": "ecai24-transport_feature.jani2nnet",
+      "nnet": "ecai24-transport_feature.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "ecai24-transport_reg",
+      "bench_dir": "ecai24-transport",
+      "jani": "ecai24-transport.jani",
+      "iface": "ecai24-transport.jani2nnet",
+      "nnet": "ecai24-transport.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_det_17_10_cls",
+      "bench_dir": "owl_det_17_10",
+      "jani": "owl_det_17_10.jani",
+      "iface": "owl_det_17_10.jani2nnet",
+      "nnet": "owl_det_17_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_det_17_10_reg",
+      "bench_dir": "owl_det_17_10",
+      "jani": "owl_det_17_10.jani",
+      "iface": "owl_det_17_10.jani2nnet",
+      "nnet": "owl_det_17_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_det_20_10_cls",
+      "bench_dir": "owl_det_20_10",
+      "jani": "owl_det_20_10.jani",
+      "iface": "owl_det_20_10.jani2nnet",
+      "nnet": "owl_det_20_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_det_20_10_reg",
+      "bench_dir": "owl_det_20_10",
+      "jani": "owl_det_20_10.jani",
+      "iface": "owl_det_20_10.jani2nnet",
+      "nnet": "owl_det_20_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_det_40_25_cls",
+      "bench_dir": "owl_det_40_25",
+      "jani": "owl_det_40_25.jani",
+      "iface": "owl_det_40_25.jani2nnet",
+      "nnet": "owl_det_40_25.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_det_40_25_reg",
+      "bench_dir": "owl_det_40_25",
+      "jani": "owl_det_40_25.jani",
+      "iface": "owl_det_40_25.jani2nnet",
+      "nnet": "owl_det_40_25.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_nod_nop_17_10_cls",
+      "bench_dir": "owl_nod_nop_17_10",
+      "jani": "owl_nod_nop_17_10.jani",
+      "iface": "owl_nod_nop_17_10.jani2nnet",
+      "nnet": "owl_nod_nop_17_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_nod_nop_17_10_reg",
+      "bench_dir": "owl_nod_nop_17_10",
+      "jani": "owl_nod_nop_17_10.jani",
+      "iface": "owl_nod_nop_17_10.jani2nnet",
+      "nnet": "owl_nod_nop_17_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_nod_nop_40_25_cls",
+      "bench_dir": "owl_nod_nop_40_25",
+      "jani": "owl_nod_nop_40_25.jani",
+      "iface": "owl_nod_nop_40_25.jani2nnet",
+      "nnet": "owl_nod_nop_40_25.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_nod_nop_40_25_reg",
+      "bench_dir": "owl_nod_nop_40_25",
+      "jani": "owl_nod_nop_40_25.jani",
+      "iface": "owl_nod_nop_40_25.jani2nnet",
+      "nnet": "owl_nod_nop_40_25.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_nod_park_17_10_cls",
+      "bench_dir": "owl_nod_park_17_10",
+      "jani": "owl_nod_park_17_10.jani",
+      "iface": "owl_nod_park_17_10.jani2nnet",
+      "nnet": "owl_nod_park_17_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_nod_park_17_10_reg",
+      "bench_dir": "owl_nod_park_17_10",
+      "jani": "owl_nod_park_17_10.jani",
+      "iface": "owl_nod_park_17_10.jani2nnet",
+      "nnet": "owl_nod_park_17_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_nod_park_20_10_cls",
+      "bench_dir": "owl_nod_park_20_10",
+      "jani": "owl_nod_park_20_10.jani",
+      "iface": "owl_nod_park_20_10.jani2nnet",
+      "nnet": "owl_nod_park_20_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_nod_park_20_10_reg",
+      "bench_dir": "owl_nod_park_20_10",
+      "jani": "owl_nod_park_20_10.jani",
+      "iface": "owl_nod_park_20_10.jani2nnet",
+      "nnet": "owl_nod_park_20_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_nod_park_40_25_cls",
+      "bench_dir": "owl_nod_park_40_25",
+      "jani": "owl_nod_park_40_25.jani",
+      "iface": "owl_nod_park_40_25.jani2nnet",
+      "nnet": "owl_nod_park_40_25.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "owl_nod_park_40_25_reg",
+      "bench_dir": "owl_nod_park_40_25",
+      "jani": "owl_nod_park_40_25.jani",
+      "iface": "owl_nod_park_40_25.jani2nnet",
+      "nnet": "owl_nod_park_40_25.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_det_17_10_cls",
+      "bench_dir": "twl_det_17_10",
+      "jani": "twl_det_17_10.jani",
+      "iface": "twl_det_17_10.jani2nnet",
+      "nnet": "twl_det_17_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_det_17_10_reg",
+      "bench_dir": "twl_det_17_10",
+      "jani": "twl_det_17_10.jani",
+      "iface": "twl_det_17_10.jani2nnet",
+      "nnet": "twl_det_17_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_det_20_10_cls",
+      "bench_dir": "twl_det_20_10",
+      "jani": "twl_det_20_10.jani",
+      "iface": "twl_det_20_10.jani2nnet",
+      "nnet": "twl_det_20_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_det_20_10_reg",
+      "bench_dir": "twl_det_20_10",
+      "jani": "twl_det_20_10.jani",
+      "iface": "twl_det_20_10.jani2nnet",
+      "nnet": "twl_det_20_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_det_40_25_cls",
+      "bench_dir": "twl_det_40_25",
+      "jani": "twl_det_40_25.jani",
+      "iface": "twl_det_40_25.jani2nnet",
+      "nnet": "twl_det_40_25.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_det_40_25_reg",
+      "bench_dir": "twl_det_40_25",
+      "jani": "twl_det_40_25.jani",
+      "iface": "twl_det_40_25.jani2nnet",
+      "nnet": "twl_det_40_25.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_nod_nop_17_10_cls",
+      "bench_dir": "twl_nod_nop_17_10",
+      "jani": "twl_nod_nop_17_10.jani",
+      "iface": "twl_nod_nop_17_10.jani2nnet",
+      "nnet": "twl_nod_nop_17_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_nod_nop_17_10_reg",
+      "bench_dir": "twl_nod_nop_17_10",
+      "jani": "twl_nod_nop_17_10.jani",
+      "iface": "twl_nod_nop_17_10.jani2nnet",
+      "nnet": "twl_nod_nop_17_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_nod_nop_20_10_cls",
+      "bench_dir": "twl_nod_nop_20_10",
+      "jani": "twl_nod_nop_20_10.jani",
+      "iface": "twl_nod_nop_20_10.jani2nnet",
+      "nnet": "twl_nod_nop_20_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_nod_nop_20_10_reg",
+      "bench_dir": "twl_nod_nop_20_10",
+      "jani": "twl_nod_nop_20_10.jani",
+      "iface": "twl_nod_nop_20_10.jani2nnet",
+      "nnet": "twl_nod_nop_20_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_nod_nop_40_25_cls",
+      "bench_dir": "twl_nod_nop_40_25",
+      "jani": "twl_nod_nop_40_25.jani",
+      "iface": "twl_nod_nop_40_25.jani2nnet",
+      "nnet": "twl_nod_nop_40_25.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_nod_nop_40_25_reg",
+      "bench_dir": "twl_nod_nop_40_25",
+      "jani": "twl_nod_nop_40_25.jani",
+      "iface": "twl_nod_nop_40_25.jani2nnet",
+      "nnet": "twl_nod_nop_40_25.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_nod_park_17_10_cls",
+      "bench_dir": "twl_nod_park_17_10",
+      "jani": "twl_nod_park_17_10.jani",
+      "iface": "twl_nod_park_17_10.jani2nnet",
+      "nnet": "twl_nod_park_17_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_nod_park_17_10_reg",
+      "bench_dir": "twl_nod_park_17_10",
+      "jani": "twl_nod_park_17_10.jani",
+      "iface": "twl_nod_park_17_10.jani2nnet",
+      "nnet": "twl_nod_park_17_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_nod_park_20_10_cls",
+      "bench_dir": "twl_nod_park_20_10",
+      "jani": "twl_nod_park_20_10.jani",
+      "iface": "twl_nod_park_20_10.jani2nnet",
+      "nnet": "twl_nod_park_20_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_nod_park_20_10_reg",
+      "bench_dir": "twl_nod_park_20_10",
+      "jani": "twl_nod_park_20_10.jani",
+      "iface": "twl_nod_park_20_10.jani2nnet",
+      "nnet": "twl_nod_park_20_10.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_nod_park_40_25_cls",
+      "bench_dir": "twl_nod_park_40_25",
+      "jani": "twl_nod_park_40_25.jani",
+      "iface": "twl_nod_park_40_25.jani2nnet",
+      "nnet": "twl_nod_park_40_25.nnet",
+      "prop": "compact-property.jani"
+    },
+    {
+      "dataset": "twl_nod_park_40_25_reg",
+      "bench_dir": "twl_nod_park_40_25",
+      "jani": "twl_nod_park_40_25.jani",
+      "iface": "twl_nod_park_40_25.jani2nnet",
+      "nnet": "twl_nod_park_40_25.nnet",
+      "prop": "compact-property.jani"
+    }
+  ]
+}

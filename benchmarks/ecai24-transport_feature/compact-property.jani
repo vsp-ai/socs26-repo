@@ -1,0 +1,332 @@
+{
+    "properties": [
+        {
+            "expression": {
+                "objective": {
+                    "goal": {
+                        "exp": {
+                            "left": {
+                                "left": {
+                                    "left": {
+                                        "left": {
+                                            "left": "location_load_0",
+                                            "op": "=",
+                                            "right": 0
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": "location_load_1",
+                                            "op": "=",
+                                            "right": 0
+                                        }
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": {
+                                            "left": "location_load_2",
+                                            "op": "=",
+                                            "right": 0
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": "location_load_3",
+                                            "op": "=",
+                                            "right": 0
+                                        }
+                                    }
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": {
+                                        "left": {
+                                            "left": "location_load_4",
+                                            "op": "=",
+                                            "right": 0
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": "location_load_5",
+                                            "op": "=",
+                                            "right": 0
+                                        }
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": {
+                                            "left": "location_load_6",
+                                            "op": "=",
+                                            "right": 15
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": "truck_0",
+                                            "op": "=",
+                                            "right": 6
+                                        }
+                                    }
+                                }
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": 0,
+                                "op": "≤",
+                                "right": "last_capacity_diff"
+                            }
+                        },
+                        "op": "state-condition"
+                    },
+                    "op": "objective"
+                },
+                "op": "PA",
+                "reach": {
+                    "exp": {
+                        "left": "last_capacity_diff",
+                        "op": "≤",
+                        "right": -1
+                    },
+                    "op": "state-condition"
+                },
+                "start": {
+                    "exp": {
+                        "left": {
+                            "left": {
+                                "left": {
+                                    "left": "last_capacity_diff",
+                                    "op": "=",
+                                    "right": 0
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": 15,
+                                    "op": "=",
+                                    "right": {
+                                        "left": "location_load_0",
+                                        "op": "+",
+                                        "right": {
+                                            "left": "location_load_1",
+                                            "op": "+",
+                                            "right": {
+                                                "left": "location_load_2",
+                                                "op": "+",
+                                                "right": {
+                                                    "left": "location_load_3",
+                                                    "op": "+",
+                                                    "right": {
+                                                        "left": "location_load_4",
+                                                        "op": "+",
+                                                        "right": {
+                                                            "left": "location_load_5",
+                                                            "op": "+",
+                                                            "right": {
+                                                                "left": "location_load_6",
+                                                                "op": "+",
+                                                                "right": "truck_load_0"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "truck_0",
+                                    "op": "≤",
+                                    "right": 5
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": "location_load_6",
+                                    "op": "=",
+                                    "right": 0
+                                }
+                            }
+                        },
+                        "op": "∧",
+                        "right": {
+                            "left": {
+                                "left": {
+                                    "left": {
+                                        "left": {
+                                            "left": {
+                                                "left": {
+                                                    "left": {
+                                                        "left": "num_packages_before_truck",
+                                                        "op": "=",
+                                                        "right": 0
+                                                    },
+                                                    "op": "∧",
+                                                    "right": {
+                                                        "left": "truck_0",
+                                                        "op": "=",
+                                                        "right": 0
+                                                    }
+                                                },
+                                                "op": "∨",
+                                                "right": {
+                                                    "left": {
+                                                        "left": "num_packages_before_truck",
+                                                        "op": "=",
+                                                        "right": "location_load_0"
+                                                    },
+                                                    "op": "∧",
+                                                    "right": {
+                                                        "left": "truck_0",
+                                                        "op": "=",
+                                                        "right": 1
+                                                    }
+                                                }
+                                            },
+                                            "op": "∨",
+                                            "right": {
+                                                "left": {
+                                                    "left": "num_packages_before_truck",
+                                                    "op": "=",
+                                                    "right": {
+                                                        "left": "location_load_0",
+                                                        "op": "+",
+                                                        "right": "location_load_1"
+                                                    }
+                                                },
+                                                "op": "∧",
+                                                "right": {
+                                                    "left": "truck_0",
+                                                    "op": "=",
+                                                    "right": 2
+                                                }
+                                            }
+                                        },
+                                        "op": "∨",
+                                        "right": {
+                                            "left": {
+                                                "left": "num_packages_before_truck",
+                                                "op": "=",
+                                                "right": {
+                                                    "left": "location_load_0",
+                                                    "op": "+",
+                                                    "right": {
+                                                        "left": "location_load_1",
+                                                        "op": "+",
+                                                        "right": "location_load_2"
+                                                    }
+                                                }
+                                            },
+                                            "op": "∧",
+                                            "right": {
+                                                "left": "truck_0",
+                                                "op": "=",
+                                                "right": 3
+                                            }
+                                        }
+                                    },
+                                    "op": "∨",
+                                    "right": {
+                                        "left": {
+                                            "left": "num_packages_before_truck",
+                                            "op": "=",
+                                            "right": {
+                                                "left": "location_load_0",
+                                                "op": "+",
+                                                "right": {
+                                                    "left": "location_load_1",
+                                                    "op": "+",
+                                                    "right": {
+                                                        "left": "location_load_2",
+                                                        "op": "+",
+                                                        "right": "location_load_3"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": "truck_0",
+                                            "op": "=",
+                                            "right": 4
+                                        }
+                                    }
+                                },
+                                "op": "∨",
+                                "right": {
+                                    "left": {
+                                        "left": "num_packages_before_truck",
+                                        "op": "=",
+                                        "right": {
+                                            "left": "location_load_0",
+                                            "op": "+",
+                                            "right": {
+                                                "left": "location_load_1",
+                                                "op": "+",
+                                                "right": {
+                                                    "left": "location_load_2",
+                                                    "op": "+",
+                                                    "right": {
+                                                        "left": "location_load_3",
+                                                        "op": "+",
+                                                        "right": "location_load_4"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": "truck_0",
+                                        "op": "=",
+                                        "right": 5
+                                    }
+                                }
+                            },
+                            "op": "∨",
+                            "right": {
+                                "left": {
+                                    "left": "num_packages_before_truck",
+                                    "op": "=",
+                                    "right": {
+                                        "left": "location_load_0",
+                                        "op": "+",
+                                        "right": {
+                                            "left": "location_load_1",
+                                            "op": "+",
+                                            "right": {
+                                                "left": "location_load_2",
+                                                "op": "+",
+                                                "right": {
+                                                    "left": "location_load_3",
+                                                    "op": "+",
+                                                    "right": {
+                                                        "left": "location_load_4",
+                                                        "op": "+",
+                                                        "right": "location_load_5"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": "truck_0",
+                                    "op": "=",
+                                    "right": 6
+                                }
+                            }
+                        }
+                    },
+                    "locations": [
+                        {
+                            "automaton": "automaton_0",
+                            "index": 0,
+                            "location": "loc_0"
+                        }
+                    ],
+                    "op": "state-condition"
+                }
+            },
+            "name": "pa_model-sum_linetrack_15_6_prop-compact_starts_no_predicates"
+        }
+    ]
+}

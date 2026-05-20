@@ -1,0 +1,8 @@
+{
+    "exp": {
+        "left": 4,
+        "op": "≤",
+        "right": "table-counter"
+    },
+    "op": "state-condition"
+}

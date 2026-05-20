@@ -1,0 +1,129 @@
+{
+  "elements": [
+    128,
+    128
+  ],
+  "file": "twl_det_40_25.nnet",
+  "filter": false,
+  "input": [
+    {
+      "automaton": null,
+      "name": "location_load_0"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_1"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_2"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_3"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_4"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_5"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_6"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_7"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_8"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_9"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_10"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_11"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_12"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_13"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_14"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_15"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_16"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_17"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_18"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_19"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_20"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_21"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_22"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_23"
+    },
+    {
+      "automaton": null,
+      "name": "location_load_24"
+    },
+    {
+      "automaton": null,
+      "name": "truck_0"
+    },
+    {
+      "automaton": null,
+      "name": "truck_load_0"
+    },
+    {
+      "automaton": null,
+      "name": "truck_vel_0"
+    }
+  ],
+  "output": [
+    "pick_up_truck_0",
+    "drop_truck_0",
+    "acc_truck_0",
+    "dec_truck_0",
+    "move_truck_0"
+  ]
+}

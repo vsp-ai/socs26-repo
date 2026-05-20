@@ -1,0 +1,57 @@
+{
+  "elements": [
+    64,
+    64
+  ],
+  "file": "ecai24-blocksworld_ci_4_3.nnet",
+  "filter": false,
+  "input": [
+    {
+      "automaton": null,
+      "name": "hand-empty"
+    },
+    {
+      "automaton": null,
+      "name": "table-counter"
+    },
+    {
+      "automaton": null,
+      "name": "block_0"
+    },
+    {
+      "automaton": null,
+      "name": "block_1"
+    },
+    {
+      "automaton": null,
+      "name": "block_2"
+    },
+    {
+      "automaton": null,
+      "name": "block_3"
+    },
+    {
+      "automaton": null,
+      "name": "clear_0"
+    },
+    {
+      "automaton": null,
+      "name": "clear_1"
+    },
+    {
+      "automaton": null,
+      "name": "clear_2"
+    },
+    {
+      "automaton": null,
+      "name": "clear_3"
+    }
+  ],
+  "output": [
+    "choose_table",
+    "choose_block_0",
+    "choose_block_1",
+    "choose_block_2",
+    "choose_block_3"
+  ]
+}

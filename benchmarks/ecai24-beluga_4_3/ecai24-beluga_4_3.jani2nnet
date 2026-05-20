@@ -1,0 +1,135 @@
+{
+  "elements": [
+    64,
+    64
+  ],
+  "file": "ecai24-beluga_4_3.nnet",
+  "filter": false,
+  "input": [
+    {
+      "automaton": null,
+      "name": "jig_0"
+    },
+    {
+      "automaton": null,
+      "name": "jig_1"
+    },
+    {
+      "automaton": null,
+      "name": "jig_2"
+    },
+    {
+      "automaton": null,
+      "name": "jig_3"
+    },
+    {
+      "automaton": null,
+      "name": "front_jig_0"
+    },
+    {
+      "automaton": null,
+      "name": "front_jig_1"
+    },
+    {
+      "automaton": null,
+      "name": "front_jig_2"
+    },
+    {
+      "automaton": null,
+      "name": "front_jig_3"
+    },
+    {
+      "automaton": null,
+      "name": "back_jig_0"
+    },
+    {
+      "automaton": null,
+      "name": "back_jig_1"
+    },
+    {
+      "automaton": null,
+      "name": "back_jig_2"
+    },
+    {
+      "automaton": null,
+      "name": "back_jig_3"
+    },
+    {
+      "automaton": null,
+      "name": "rack_load_0"
+    },
+    {
+      "automaton": null,
+      "name": "rack_load_1"
+    },
+    {
+      "automaton": null,
+      "name": "rack_load_2"
+    },
+    {
+      "automaton": null,
+      "name": "front_rack_0"
+    },
+    {
+      "automaton": null,
+      "name": "front_rack_1"
+    },
+    {
+      "automaton": null,
+      "name": "front_rack_2"
+    },
+    {
+      "automaton": null,
+      "name": "back_rack_0"
+    },
+    {
+      "automaton": null,
+      "name": "back_rack_1"
+    },
+    {
+      "automaton": null,
+      "name": "back_rack_2"
+    },
+    {
+      "automaton": null,
+      "name": "empty_trailer_0"
+    },
+    {
+      "automaton": null,
+      "name": "next_jig"
+    },
+    {
+      "automaton": null,
+      "name": "line_0"
+    },
+    {
+      "automaton": null,
+      "name": "line_1"
+    },
+    {
+      "automaton": null,
+      "name": "beluga_0"
+    },
+    {
+      "automaton": null,
+      "name": "empty_truck"
+    }
+  ],
+  "output": [
+    "unload_beluga_0",
+    "send_to_factory",
+    "push_front_rack_0",
+    "push_front_rack_1",
+    "push_front_rack_2",
+    "push_back_rack_0",
+    "push_back_rack_1",
+    "push_back_rack_2",
+    "pop_front_rack_0",
+    "pop_front_rack_1",
+    "pop_front_rack_2",
+    "pop_back_rack_0",
+    "pop_back_rack_1",
+    "pop_back_rack_2",
+    "unload_truck_0"
+  ]
+}

@@ -1,0 +1,212 @@
+{
+    "properties": [
+        {
+            "expression": {
+                "objective": {
+                    "goal": {
+                        "exp": {
+                            "left": {
+                                "left": {
+                                    "left": {
+                                        "left": {
+                                            "left": "location_load_0",
+                                            "op": "=",
+                                            "right": 0
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": "location_load_1",
+                                            "op": "=",
+                                            "right": 0
+                                        }
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": {
+                                            "left": "location_load_2",
+                                            "op": "=",
+                                            "right": 0
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": {
+                                                "left": "location_load_3",
+                                                "op": "=",
+                                                "right": 0
+                                            },
+                                            "op": "∧",
+                                            "right": {
+                                                "left": "location_load_4",
+                                                "op": "=",
+                                                "right": 0
+                                            }
+                                        }
+                                    }
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": {
+                                        "left": {
+                                            "left": "location_load_5",
+                                            "op": "=",
+                                            "right": 0
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": {
+                                                "left": "location_load_6",
+                                                "op": "=",
+                                                "right": 0
+                                            },
+                                            "op": "∧",
+                                            "right": {
+                                                "left": "location_load_7",
+                                                "op": "=",
+                                                "right": 0
+                                            }
+                                        }
+                                    },
+                                    "op": "∧",
+                                    "right": {
+                                        "left": {
+                                            "left": "location_load_8",
+                                            "op": "=",
+                                            "right": 0
+                                        },
+                                        "op": "∧",
+                                        "right": {
+                                            "left": {
+                                                "left": "location_load_9",
+                                                "op": "=",
+                                                "right": 17
+                                            },
+                                            "op": "∧",
+                                            "right": {
+                                                "left": "truck_0",
+                                                "op": "=",
+                                                "right": 9
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": 0,
+                                "op": "≤",
+                                "right": "aux_vel"
+                            }
+                        },
+                        "op": "state-condition"
+                    },
+                    "op": "objective"
+                },
+                "op": "PA",
+                "reach": {
+                    "exp": {
+                        "left": "aux_vel",
+                        "op": "≤",
+                        "right": -1
+                    },
+                    "op": "state-condition"
+                },
+                "start": {
+                    "exp": {
+                        "left": {
+                            "left": {
+                                "left": 0,
+                                "op": "≤",
+                                "right": "aux_vel"
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "truck_vel_0",
+                                    "op": "≤",
+                                    "right": 0
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": 17,
+                                    "op": "=",
+                                    "right": {
+                                        "left": "location_load_0",
+                                        "op": "+",
+                                        "right": {
+                                            "left": "location_load_1",
+                                            "op": "+",
+                                            "right": {
+                                                "left": "location_load_2",
+                                                "op": "+",
+                                                "right": {
+                                                    "left": "location_load_3",
+                                                    "op": "+",
+                                                    "right": {
+                                                        "left": "location_load_4",
+                                                        "op": "+",
+                                                        "right": {
+                                                            "left": "location_load_5",
+                                                            "op": "+",
+                                                            "right": {
+                                                                "left": "location_load_6",
+                                                                "op": "+",
+                                                                "right": {
+                                                                    "left": "location_load_7",
+                                                                    "op": "+",
+                                                                    "right": {
+                                                                        "left": "location_load_8",
+                                                                        "op": "+",
+                                                                        "right": {
+                                                                            "left": "location_load_9",
+                                                                            "op": "+",
+                                                                            "right": "truck_load_0"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "op": "∧",
+                        "right": {
+                            "left": {
+                                "left": "truck_0",
+                                "op": "=",
+                                "right": 0
+                            },
+                            "op": "∧",
+                            "right": {
+                                "left": {
+                                    "left": "truck_0",
+                                    "op": "≤",
+                                    "right": 8
+                                },
+                                "op": "∧",
+                                "right": {
+                                    "left": "location_load_9",
+                                    "op": "=",
+                                    "right": 0
+                                }
+                            }
+                        }
+                    },
+                    "locations": [
+                        {
+                            "automaton": "automaton_0",
+                            "index": 0,
+                            "location": "loc_0"
+                        }
+                    ],
+                    "op": "state-condition"
+                }
+            },
+            "name": "pa_model-mod_linetrack_17_10_prop-compact_starts_no_predicates"
+        }
+    ]
+}

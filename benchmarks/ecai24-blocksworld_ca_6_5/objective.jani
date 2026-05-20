@@ -1,0 +1,158 @@
+{
+    "accumulate": [
+        "steps"
+    ],
+    "goal": {
+        "exp": {
+            "left": {
+                "left": {
+                    "left": "block_5",
+                    "op": "=",
+                    "right": 6
+                },
+                "op": "∧",
+                "right": {
+                    "left": {
+                        "left": "block_4",
+                        "op": "=",
+                        "right": 5
+                    },
+                    "op": "∧",
+                    "right": {
+                        "left": "block_3",
+                        "op": "=",
+                        "right": 4
+                    }
+                }
+            },
+            "op": "∧",
+            "right": {
+                "left": {
+                    "left": "block_2",
+                    "op": "=",
+                    "right": 3
+                },
+                "op": "∧",
+                "right": {
+                    "left": {
+                        "left": "block_1",
+                        "op": "=",
+                        "right": 2
+                    },
+                    "op": "∧",
+                    "right": {
+                        "left": "block_0",
+                        "op": "=",
+                        "right": 1
+                    }
+                }
+            }
+        },
+        "op": "state-condition"
+    },
+    "goal-reward": {
+        "left": {
+            "left": 10,
+            "op": "*",
+            "right": {
+                "else": 0,
+                "if": {
+                    "left": "block_0",
+                    "op": "=",
+                    "right": 1
+                },
+                "op": "ite",
+                "then": 1
+            }
+        },
+        "op": "+",
+        "right": {
+            "left": {
+                "left": 10,
+                "op": "*",
+                "right": {
+                    "else": 0,
+                    "if": {
+                        "left": "block_1",
+                        "op": "=",
+                        "right": 2
+                    },
+                    "op": "ite",
+                    "then": 1
+                }
+            },
+            "op": "+",
+            "right": {
+                "left": {
+                    "left": 10,
+                    "op": "*",
+                    "right": {
+                        "else": 0,
+                        "if": {
+                            "left": "block_2",
+                            "op": "=",
+                            "right": 3
+                        },
+                        "op": "ite",
+                        "then": 1
+                    }
+                },
+                "op": "+",
+                "right": {
+                    "left": {
+                        "left": 10,
+                        "op": "*",
+                        "right": {
+                            "else": 0,
+                            "if": {
+                                "left": "block_3",
+                                "op": "=",
+                                "right": 4
+                            },
+                            "op": "ite",
+                            "then": 1
+                        }
+                    },
+                    "op": "+",
+                    "right": {
+                        "left": {
+                            "left": 10,
+                            "op": "*",
+                            "right": {
+                                "else": 0,
+                                "if": {
+                                    "left": "block_4",
+                                    "op": "=",
+                                    "right": 5
+                                },
+                                "op": "ite",
+                                "then": 1
+                            }
+                        },
+                        "op": "+",
+                        "right": {
+                            "left": 10,
+                            "op": "*",
+                            "right": {
+                                "else": 0,
+                                "if": {
+                                    "left": "block_5",
+                                    "op": "=",
+                                    "right": 6
+                                },
+                                "op": "ite",
+                                "then": 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "op": "objective",
+    "step-reward": {
+        "left": 0.01,
+        "op": "*",
+        "right": "step_cost"
+    }
+}

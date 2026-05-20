@@ -1,0 +1,20 @@
+{
+  "properties": [
+    {
+      "expression": {
+        "file": "ecai24-transport.jani2nnet",
+        "objective": {
+          "file": "objective.jani"
+        },
+        "op": "PA",
+        "reach": {
+          "file": "reach.jani"
+        },
+        "start": {
+          "file": "start.jani"
+        }
+      },
+      "name": "pa_model-linetrack_prop-compact_starts_no_predicates_nn-linetrack_16_16_domain_splits-0"
+    }
+  ]
+}

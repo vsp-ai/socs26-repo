@@ -1,0 +1,79 @@
+{
+    "exp": {
+        "left": {
+            "left": {
+                "left": "last_capacity_diff",
+                "op": "=",
+                "right": 0
+            },
+            "op": "∧",
+            "right": {
+                "left": 15,
+                "op": "=",
+                "right": {
+                    "left": "location_load_0",
+                    "op": "+",
+                    "right": {
+                        "left": "location_load_1",
+                        "op": "+",
+                        "right": {
+                            "left": "location_load_2",
+                            "op": "+",
+                            "right": {
+                                "left": "location_load_3",
+                                "op": "+",
+                                "right": {
+                                    "left": "location_load_4",
+                                    "op": "+",
+                                    "right": {
+                                        "left": "location_load_5",
+                                        "op": "+",
+                                        "right": {
+                                            "left": "location_load_6",
+                                            "op": "+",
+                                            "right": {
+                                                "left": "location_load_7",
+                                                "op": "+",
+                                                "right": {
+                                                    "left": "location_load_8",
+                                                    "op": "+",
+                                                    "right": {
+                                                        "left": "location_load_9",
+                                                        "op": "+",
+                                                        "right": "truck_load_0"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "op": "∧",
+        "right": {
+            "left": {
+                "left": "truck_0",
+                "op": "≤",
+                "right": 8
+            },
+            "op": "∧",
+            "right": {
+                "left": "location_load_9",
+                "op": "=",
+                "right": 0
+            }
+        }
+    },
+    "locations": [
+        {
+            "automaton": "automaton_0",
+            "index": 0,
+            "location": "loc_0"
+        }
+    ],
+    "op": "state-condition"
+}

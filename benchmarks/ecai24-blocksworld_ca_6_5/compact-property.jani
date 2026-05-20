@@ -1,0 +1,20 @@
+{
+  "properties": [
+    {
+      "expression": {
+        "file": "ecai24-blocksworld_ca_6_5.jani2nnet",
+        "objective": {
+          "file": "objective.jani"
+        },
+        "op": "PA",
+        "reach": {
+          "file": "reach.jani"
+        },
+        "start": {
+          "file": "start.jani"
+        }
+      },
+      "name": "pa_model-blocksworld_6_5_prop-compact_starts_no_predicates_nn-blocksworld_6_5_64_64_domain_splits-0"
+    }
+  ]
+}
