@@ -1,5 +1,5 @@
 {
-  "bench_root": "/home/$USER/Desktop/SOCS26-REPO/benchmarks",
+  "bench_root": "/home/$USER/Desktop/socs26-repo/benchmarks",
   "benchmarks": [
     {
       "dataset": "ecai24-beluga_4_3_cls",

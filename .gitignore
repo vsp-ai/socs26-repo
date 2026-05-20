@@ -11,6 +11,9 @@ __pycache__/
 *.out
 *.err
 
+**/stats/
+*.csv
+
 **/output/
 *.csv
 

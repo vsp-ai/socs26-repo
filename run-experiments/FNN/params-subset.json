@@ -2,8 +2,8 @@
   "fnn_root":        "/home/$USER/Desktop/socs26-repo/fnn",
   "plaja_root":      "/home/$USER/Desktop/plaja-fault_analysis_policy_iteration",
   "benchmarks_file": "/home/$USER/Desktop/socs26-repo/run-experiments/benchmark-settings/subset.b.json",
-  "output_root":     "/home/$USER/Desktop/socs26-repo/run-experiments/FNN/output/small",
-  "model_root":      "/home/$USER/Desktop/socs26-repo/run-experiments/FNN/output/small/models",
+  "output_root":     "/home/$USER/Desktop/socs26-repo/run-experiments/FNN/output/subset",
+  "model_root":      "/home/$USER/Desktop/socs26-repo/run-experiments/FNN/output/subset/models",
   "services": {
     "data_generation": {
       "tasks": [
@@ -27,7 +27,7 @@
         "alpha": 0.999,
         "beta": 8,
         "gamma": 1,
-        "epochs": 20,
+        "epochs": 5,
         "batch_size": 64,
         "lr_decay_rate": 0.75,
         "lr_decay_epoch": 10,
@@ -42,7 +42,7 @@
           42
         ],
         "structures": [
-          "0@128", "0@256"
+          "0@128"
         ],
         "lrs": [
           0.01

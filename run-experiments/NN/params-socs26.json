@@ -1,0 +1,14 @@
+{
+  "plaja_root":      "/home/$USER/Desktop/plaja-fault_analysis_policy_iteration",
+  "benchmarks_file": "/home/$USER/Desktop/socs26-repo/run-experiments/benchmark-settings/socs26.b.json",
+  "output_root":     "/home/$USER/Desktop/socs26-repo/run-experiments/NN/output/socs26",
+  "services": {
+    "evaluation": {
+      "eval_params": {
+        "initial_state_enum": "sample",
+        "num_episodes": 50000,
+        "timeout_sec": 3600
+      }
+    }
+  }
+}
